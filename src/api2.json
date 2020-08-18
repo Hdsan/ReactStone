@@ -1,0 +1,31 @@
+[{
+    "name": "Garrosh Grito Infernal",
+    "type": "Guerreiro",
+    "image": "a",
+    "frase": "Vitória ou morte!"
+
+},{
+    "name": "Gul'Dan",
+    "type": "Bruxo",
+    "image": "a",
+    "frase": "Eu sou seu pesadelo"
+
+},{
+    "name": "Rexxar",
+    "type": "Caçador",
+    "image": "a",
+    "frase": "Que a caçada comece"
+
+},{
+    "name": "Valira Sanguinar",
+    "type": "Ladino",
+    "image": "a",
+    "frase": "É melhor abrir o olho"
+
+},{
+    "name": "Tyrande Murmuréolo",
+    "type": "Sacerdote",
+    "image": "a",
+    "frase": "A luz sorri para os justos"
+
+}]

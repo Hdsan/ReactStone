@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import api from './api';
+//import api from './api';
 import './defaultPage/styles/main.css';
-//import api1 from 'api.json';
+import api1 from './api2.json';
 
 class Cont extends Component {
 
@@ -10,9 +10,8 @@ class Cont extends Component {
   }
 
   async componentDidMount() {
-    const response = await api;
 
-    this.setState({ cards: response.data });
+    this.setState({ cards: api1});
   }
 
   render() {
@@ -23,14 +22,17 @@ class Cont extends Component {
       <div className="all">
         <h1>Listar os cards</h1>
         {cards.map(cards => (
-          <li key={cards.show.id}>
-            <h2>
-              <strong>Nome: </strong>
+          <li key={cards.id}>
+            <h1>
+              <strong></strong>
               {cards.name}
+            </h1>
+            <h2>
+              {cards.type}
             </h2>
-            <p>
-              {cards.show.type}
-            </p>
+            <i>
+             <p> {cards.frase} </p>
+              </i>
 
           </li>
         ))}

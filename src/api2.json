@@ -1,31 +1,37 @@
 [{
     "name": "Garrosh Grito Infernal",
     "type": "Guerreiro",
-    "image": "a",
+    "image": "https://i.imgur.com/0dDV5OC.png",
     "frase": "Vitória ou morte!"
 
 },{
     "name": "Gul'Dan",
     "type": "Bruxo",
-    "image": "a",
+    "image": "https://i.imgur.com/kGfyLnU.png",
     "frase": "Eu sou seu pesadelo"
 
 },{
     "name": "Rexxar",
     "type": "Caçador",
-    "image": "a",
+    "image": "https://i.imgur.com/LVbniWJ.png",
     "frase": "Que a caçada comece"
 
 },{
-    "name": "Valira Sanguinar",
+    "name": "Valeera Sanguinar",
     "type": "Ladino",
-    "image": "a",
+    "image": "https://i.imgur.com/DrLZyhW.png",
     "frase": "É melhor abrir o olho"
 
 },{
     "name": "Tyrande Murmuréolo",
     "type": "Sacerdote",
-    "image": "a",
+    "image": "https://i.imgur.com/rt2jADV.png",
     "frase": "A luz sorri para os justos"
+
+},{
+    "name": "Illidan Tempesfuria",
+    "type": "Caçador de demônios",
+    "image": "https://i.imgur.com/TUcwMPi.png",
+    "frase": "Você não está preparado!"
 
 }]

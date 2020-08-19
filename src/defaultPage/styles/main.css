@@ -4,9 +4,20 @@ a{
     
     padding-left: 10px;
 }
+i{
+    font-size: 25px;
+}
+li {
+    list-style-type: none;
+    padding-top: 2px;
+  }
 h4{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+h1,h2{
+    position: relative;
+}
+
 body{
     background-image: url('Bground.png');
     background-position:center ;
@@ -15,6 +26,10 @@ body{
     background-attachment: scroll;
     background-size: 70vh;
     
+}
+.Cardimage{
+    width:30vw;
+   
 }
 
 .Content{

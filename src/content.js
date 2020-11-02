@@ -14,6 +14,14 @@ class Cont extends Component {
 
     this.setState({ cards: api1});
   }
+  async getError(){
+    this.componentDidMount();
+    if(api1 == null){
+      console.log("erro ao carregar cartas")
+
+    }
+
+  }
 
   render() {
 

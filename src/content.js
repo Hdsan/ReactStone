@@ -13,7 +13,6 @@ class Cont extends Component {
 
     this.setState({ cards: api1});
   }
- 
 
   render() {
 

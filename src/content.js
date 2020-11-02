@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import api from './api';
 import './defaultPage/styles/main.css';
 import api1 from './api2.json';
 import img404 from './defaultPage/404.png';
@@ -22,11 +21,11 @@ class Cont extends Component {
     console.log(cards);
 
     return (
-      <div className="all">
+      <div className="List">
         <h1>Listar os cards</h1>
         {cards.map(cards => (
           <li key = {cards.name}>
-            <img src = {cards.image} alt = {img404} className ='Cardimage' />
+            <img src = {cards.image} alt = {img404} className ='Card_image' />
             <h1 >
               
               {cards.name}
